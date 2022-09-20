@@ -6,6 +6,7 @@
  * main - generates random valid passwords
  * Return: 0 (on success).
  */
+
 int main(void)
 {
 	int pass, sum;
@@ -20,5 +21,5 @@ int main(void)
 	}
 	printf("%c", 2772 - sum);
 
-	return(0):
+	return(0);
 }
