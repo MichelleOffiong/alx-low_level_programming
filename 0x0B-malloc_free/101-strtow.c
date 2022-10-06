@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * len - returns lenght of str
+ * len - returns length of str
  * @str: string to be counted
  *
  * Return: length of the string
@@ -88,7 +88,7 @@ char **strtow(char *str)
 				{
 					while (j-- >= 0)
 						free(split[j]);
-					free(spli);
+					free(split);
 					return (NULL);
 				}
 			}
