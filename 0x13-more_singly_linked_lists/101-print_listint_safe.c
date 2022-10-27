@@ -33,6 +33,6 @@ size_t print_listint_safe(const listint_t *head)
 		}
 		if (!head)
 			exit(98);
-		}
+	}
 	return (counter)
 }
